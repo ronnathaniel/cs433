@@ -1,0 +1,1 @@
+cmd_/home/ronnathaniel/mods/hw1/hello3/Module.symvers := sed 's/\.ko$$/\.o/' /home/ronnathaniel/mods/hw1/hello3/modules.order | scripts/mod/modpost    -o /home/ronnathaniel/mods/hw1/hello3/Module.symvers -e -i Module.symvers   -T -

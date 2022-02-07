@@ -1,0 +1,1 @@
+cmd_/home/ronnathaniel/mods/hw1/hello3/hello3.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/ronnathaniel/mods/hw1/hello3/hello3.ko /home/ronnathaniel/mods/hw1/hello3/hello3.o /home/ronnathaniel/mods/hw1/hello3/hello3.mod.o;  true
