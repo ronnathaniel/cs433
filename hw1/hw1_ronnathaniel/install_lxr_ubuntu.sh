@@ -6,16 +6,20 @@
 
 
 # Installing Dependencies
-apt-get update
-apt-get install -y \
+sudo apt update
+sudo apt install -y \
   apache2 \
   ctags \
   curl \
+  git-core \
   glimpse \
   libdbi-perl \
   libfile-mmagic-perl \
+  libxapian15 \
+  libsearch-xapian-perl \
   perl \
-  sqlite3
+  postgresql-8.4 \
+  postgresql-client-8.4 \
 
 # Global Vars
 LXR_V=${1:-2.0.0}
